@@ -1,0 +1,108 @@
+.resultTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FFF;
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: left;
+    border-radius: 16px;
+    gap: 14px;
+    padding: 5px;
+    background-color: rgb(247, 247, 247);
+    margin: 5px 10px;
+}
+
+.itemPhoto {
+    width: 120px;
+    margin: 10px;
+}
+
+.itemImage {
+    max-width: 100px;
+    height: 100px;
+}
+
+.itemArticle {
+    margin: 10px;
+    width: 25%;
+    display: flex;
+    align-items:center;
+
+}
+
+.itemName {
+    margin: 10px;
+    display: flex;
+    align-items:center;
+
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loadingSpinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #383636;
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+}
+.form {
+    width: 100%;
+    display: flex;
+}
+
+.formLabel {
+    padding: 9px 12px;
+    background: rgba(54, 60, 68, 0.06);
+    border-radius: 6px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    width: 250px;
+    margin-right: 10px;
+}
+.formButton {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #000000;
+    padding: 0 10px;
+    gap: 8px;
+    transition: all 0.3s ease 0s;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 6px;
+    background: rgb(253, 203, 11);
+}
+
+.formInput {
+    width: 100%;
+    background-color: transparent;
+    font-size: 16px;
+    position: relative;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    top: 1px;
+}

@@ -1,0 +1,14 @@
+.searchPage {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1272px;
+    width: 100%;
+}
+
+.pageWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
